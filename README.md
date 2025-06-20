@@ -13,15 +13,21 @@ A tuned **Random Forest Regressor** was selected as the final model after evalua
 
 The Random Forest model was chosen based on its superior performance in RMSE and R² across both global and store-specific validation sets.
 
+## Dataset
+
+The dataset is not stored directly in this repository. You can access and download it from Kaggle:
+[Demand Forecasting - Kernels Only Competition](https://www.kaggle.com/competitions/demand-forecasting-kernels-only)
+
+After downloading, place the unzipped files in the `data/` directory.
+
 ## Repository Structure
 
 ```bash
-├── data/                   # Contains raw and processed datasets
+├── data/                   # Contains raw and processed datasets (user must download from Kaggle)
 ├── notebooks/              # Jupyter Notebooks for EDA, modeling, and evaluation
-├── models/                 # Saved models and evaluation results
 ├── reports/                # Documentation including model card and datasheet
-├── src/                    # Source code for feature engineering, training, etc.
 ├── model_card.md           # Documentation describing the final model
 ├── datasheet.md            # Description and context of the dataset
 ├── README.md               # Project overview and key results
+
 
